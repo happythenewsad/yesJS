@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=9" />
+	<meta name="viewport"/>
+	<title>JSTest</title>
+	<link rel="stylesheet" href="styles.css" type="stylesheet" />
+	<script type="text/javascript" src="jq.js"></script>
+    </head>
+  <body>
+	  
+	  <div id="wrapper" class="wrapper">
+	  	<div id="content1" class="content">
+			“My parents didn’t want me sent back, and they wanted to see me again,” Mr. Noriega said, recalling the days when he was detained. “We’ve always been a close family, and having your son put in jail and taken away from you definitely brought sadness and depression to the house.”
+
+			He learned just before the holidays that his deportation had been suspended. “I thought it must have been a miracle,” Mr. Noriega said.
+
+			But he is worried that without being able to work or drive, he cannot enroll in the courses he needs for the automotive degree.
+
+			“It definitely is a step forward,” he said. “But at the same time. I don’t think it’s a solution.”
+
+			Administration officials said they were going as far as they could under existing laws and would continue to press Congress for legislation giving legal status to illegal immigrants.
+	  	</div>
+		<div id="content3" class="content">
+			“My parents didn’t want me sent back, and they wanted to see me again,” Mr. Noriega said, recalling the days when he was detained. “We’ve always been a close family, and having your son put in jail and taken away from you definitely brought sadness and depression to the house.”
+
+			He learned just before the holidays that his deportation had been suspended. “I thought it must have been a miracle,” Mr. Noriega said.
+
+			But he is worried that without being able to work or drive, he cannot enroll in the courses he needs for the automotive degree.
+
+			“It definitely is a step forward,” he said. “But at the same time. I don’t think it’s a solution.”
+
+			Administration officials said they were going as far as they could under existing laws and would continue to press Congress for legislation giving legal status to illegal immigrants.
+		</div>
+	  </div>
+	  <div id="box" class="box">
+	  	text is here
+	  </div>
+  </body>
+  <script type="text/javascript" charset="utf-8">
+
+  $(document).ready(function() {
+
+	  $(window).scroll(function() {
+	    $('#box').fadeIn(1500);
+	  });	
+  });	
+	
+	
+  </script>
+  
+  
+</html>
