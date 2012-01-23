@@ -2,7 +2,7 @@ Todo
 =====
 
 - panel should only fade in when the *top* of the fade-in element appears in the viewport
-
+- panel should fade out when content div dissappears down
 
 Doing
 ===
