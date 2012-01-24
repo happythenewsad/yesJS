@@ -1,3 +1,5 @@
+
+
 //returns true when the top of elem is in the viewport
 function inView(elem) {
     var viewportTop = $(window).scrollTop();
@@ -7,15 +9,22 @@ function inView(elem) {
 };
 
 $(document).ready(function() {
+	var fadeInTime = 750;
+	var fadeOutTime = 500;
+	var eventElemName = '#content4';
+	var targetElemName = '#box';
+	
 
+	
 	$(window).scroll(function() {
-		if (inView('#content4')) {
+		if (inView(eventElemName)) {
 			//testing:
 			//alert("fading in\n docViewTop: " + $(window).scrollTop() + "\ndocViewBottom: " + ($(window).scrollTop() + $(window).height()) + "\nelemTop: " +  $('#content4').offset().top  );
-			$('#box').fadeIn(750);
+			$(targetElemName).fadeIn(fadeInTime);
 		}
-		if (!inView('#content4')) {
-			$('#box').fadeOut(500);
+		else {
+			$(targetElemName).fadeOut(fadeOutTime);
+
 		}
 	});
 
