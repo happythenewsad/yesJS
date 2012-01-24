@@ -6,7 +6,7 @@ I am implementing the New York Times' "slider" panel to practice my JavaScript.
 Todo
 =====
 
-- panel should only fade in when the *top* of the fade-in element appears in the viewport
+	Make the scroll loop more efficient.
 
 
 Doing
@@ -23,9 +23,9 @@ Done
 
 - panel should fade out when content div disappears down
 
+- panel should only fade in when the *top* of the fade-in element appears in the viewport
 
-Notes:
-Why does calling fadein twice only make the object actually fade in once?
+
 
 Implementation options:
 
