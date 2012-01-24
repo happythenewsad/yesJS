@@ -9,21 +9,26 @@ function inView(elem) {
     return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
 };
 
+
+
 $(document).ready(function() {
 
 
 	$(window).scroll(function() {
-		//alert(inView('#content4'));
+		
 		if (inView('#content4')) {
-			$('#box').fadeIn(3000);
+
+			$('#box').fadeIn(1000);
+
 		}
+		if (!inView('#content4')) {
+
+			$('#box').fadeOut(500);
+		}
+		
 	});
 
 
-	//uncomment this to play with onmousemove
-  	onmousemove = function(){ 
-		//$('#content3').append("mouse moved\n!");
-	};
 
 });
 
