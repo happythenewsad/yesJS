@@ -14,6 +14,9 @@ $(document).ready(function() {
 	var eventElemName = '#content4';
 	var targetElemName = '#box';
 	
+	$('#xbox').click(function() {
+		alert("xbox!");
+	});
 
 	
 	$(window).scroll(function() {
@@ -24,7 +27,6 @@ $(document).ready(function() {
 		}
 		else {
 			$(targetElemName).fadeOut(fadeOutTime);
-
 		}
 	});
 
