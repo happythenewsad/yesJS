@@ -11,7 +11,7 @@ function inView(elem) {
 $(document).ready(function() {
 	var fadeInTime = 750;
 	var fadeOutTime = 500;
-	var eventElemName = '#content4';
+	var eventElemName = '#content4'; //play around with selecting different elemnts
 	var targetElemName = '#box';
 	
 	$('#xbox').click(function() {

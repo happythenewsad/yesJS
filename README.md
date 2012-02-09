@@ -3,19 +3,28 @@ Summary:
 I am implementing the New York Times' "slider" panel to practice my JavaScript. The id of the slider on NYTimes.com is "upNext".
 
 
+
+Instructions:
+===
+Open demo.html in your browser of choice.
+
+
+
+Tasks
+===
+
 Todo
-=====
+---
 
  - add "open/close" functionality
 
 
-
 Doing
-===
+---
 
 
 Done
-===
+---
 
 - Panel should fade in when a scroll event occurs
 - Panel should only fade in when a scroll event occurs AND the end of a content div appears in the viewport
