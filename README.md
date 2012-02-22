@@ -1,6 +1,6 @@
 Summary:
 ===
-I am implementing the New York Times' "slider" panel to practice my JavaScript. The id of the slider on NYTimes.com is "upNext".
+I am implementing the New York Times' "slider" panel to practice my JavaScript. The CSS id of the slider on NYTimes.com is "upNext," if you want to compare with their code.
 
 
 
